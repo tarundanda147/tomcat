@@ -1,0 +1,10 @@
+deploymentName: "my-tomcat"
+deploymentLabel: "tomcat"
+replicas: 1
+volumeName: "volume-tomcat"
+claimName: "claim-tomcat"
+storageClass: "tomcat-ebs"
+requestStorage: "5Gi"
+serviceName: "tomcat"
+ingressName: "tomcat-ingress"
+imageName: "tomcat:8.0"
